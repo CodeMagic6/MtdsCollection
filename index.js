@@ -4,6 +4,7 @@ export default {
   uniqueArray(array){
     return [...new Set(array)];
   },
+  // split String = string and number   
   splitNumAndStr(str){
     let num = str.match(/[0-9]+/ig);
     let string = str.match(/[a-z]+/ig);
