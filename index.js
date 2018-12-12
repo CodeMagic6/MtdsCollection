@@ -13,4 +13,10 @@ export default {
       string
     }
   },
+  ifEmtpyObject(obj){
+    let ifEmptyObj = obj => {
+        return !!Object.keys(obj).length;
+      };
+    return ifEmptyObj(obj);
+  }
 }
