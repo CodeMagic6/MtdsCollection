@@ -27,7 +27,7 @@ export default {
     let halfamonth = day * 15;
     let month = day * 30;
     let now = new Date().getTime();   //获取当前时间毫秒
-    console.log(now)
+    let result;
     let diffValue = now - dateTimeStamp;//时间差
 
     if(diffValue < 0){
