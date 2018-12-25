@@ -64,6 +64,6 @@ export default {
     return result;
   },
   whatType(obj){
-    return toString.call(obj).slice(8, -1);
+    return toString.call(obj).slice(8, -1).toLowerCase();
   }
 }
