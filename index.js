@@ -62,5 +62,8 @@ export default {
         result = Nyear + "-" + Nmonth + "-" + Ndate
     }
     return result;
+  },
+  whatType(obj){
+    return toString.call(obj).slice(8, -1);
   }
 }
